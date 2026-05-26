@@ -15,7 +15,11 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
 
 <!-- Xanthan navbar (mobile collapse + dropdowns) -->
+{% if page.layout == 'unm' %}
+<script src="{{ site.baseurl }}/assets/js/unm-preview.js"></script>
+{% else %}
 <script src="{{ site.baseurl }}/assets/js/nav.js"></script>
+{% endif %}
 
 <!-- Search (loaded when search is enabled in _config.yml) -->
 {% if site.search %}

@@ -31,6 +31,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
 
   <!-- Base CSS -->
+  {% if page.layout == 'unm' %}
+  <link rel="stylesheet" type="text/css" href="https://webcore.unm.edu/v2/fonts/unm-fonts.css">
+  <link href="{{site.baseurl}}/assets/css/unm-preview.css" rel="stylesheet">
+  {% else %}
   <link href="{{site.baseurl}}/assets/css/base.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/cards.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/backgrounds.css" rel="stylesheet">
@@ -39,6 +43,7 @@
   <link href="{{site.baseurl}}/assets/css/nav-left.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/nav-profile.css" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/workshop.css" rel="stylesheet">
+  {% endif %}
 
   <!--
     Alternate theme CSS that overrides bases above. 

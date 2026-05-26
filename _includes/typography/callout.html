@@ -1,0 +1,6 @@
+<div class="callout callout-{{ include.class }}" role="note">
+{% if include.title %}
+<h4 class="callout-heading">{{ include.title }}</h4>
+{% endif %}
+{{ include.text | markdownify }}
+</div>

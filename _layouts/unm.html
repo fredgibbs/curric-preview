@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include html/html-head.html %}
+  <body class="unm-preview{% if page.body-id %} {{ page.body-id }}{% endif %}">
+    <div class="page-wrap">
+      {% include unm/header.html %}
+      <main id="main" class="unm-main" tabindex="-1">
+        {% if page.scrollspy %}
+          <div class="unm-document-layout">
+            <div class="unm-document">
+              {{ content }}
+            </div>
+            <nav class="unm-document-toc" aria-label="On this page">
+              <h2>On this page</h2>
+              <ol id="unm-document-toc-list"></ol>
+            </nav>
+          </div>
+        {% else %}
+          <div class="unm-shell{% if page.document %} unm-document{% endif %}">
+            {{ content }}
+          </div>
+        {% endif %}
+      </main>
+      {% include unm/footer.html %}
+    </div>
+    {% include google_analytics.html %}
+    {% include html/html-js.html %}
+  </body>
+</html>
