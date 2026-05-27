@@ -8,6 +8,12 @@ document: true
 
 This preview section presents a proposed framework for curriculum review at UNM. The goal is to clarify expectations, reduce unnecessary returns, and start the right conversations before anyone touches Kuali. Nothing here is final — it's a starting point for discussion.
 
+{% capture recs_link %}
+For the working group's recommendations that motivate this framework, see [Curriculum Workflow Recommendations]({{ site.baseurl }}/curriculum/recommendations.html).
+{% endcapture %}
+{% include typography/callout.html class="info" text=recs_link %}
+
+---
 
 ## Review Processes Documentation
 
