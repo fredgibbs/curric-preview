@@ -9,11 +9,12 @@ scrollspy: true
 
 This guide walks through the Kuali form section by section, in the order fields appear. Before submitting, use the checklist at the end.
 
-Forms come back most often for incomplete or inconsistent information — not because a committee disagrees with the change. A careful first submission is the best favor you can do for yourself and everyone reviewing it.
+Forms come back most often for incomplete or inconsistent information — not because a committee disagrees with the change. A careful first submission is the best favor you can do for yourself and everyone reviewing it. Beyond the recommendations here, it can also help to see what reviewers will be looking for — the [Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html) explains what each stage is responsible for evaluating.
 
-{% include typography/callout.html class="draft" text="
-Be sure you've already read the proposal guide. For even minor program changes, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues before and prevent avoidable returns.
-" %}
+{% capture kuali_top_note %}
+Be sure you've already read the [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html). For even minor program changes, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues and prevent avoidable returns.
+{% endcapture %}
+{% include typography/callout.html class="draft" text=kuali_top_note %}
 
 
 ---
@@ -22,7 +23,9 @@ Be sure you've already read the proposal guide. For even minor program changes, 
 
 Provide justification appropriate to the scope of the change. Avoid vague or generic statements like “we are updating our degree program,” “we are modernizing our curriculum,” or “we are changing the course title.”
 
-Clearly articulate the need or opportunity. Reviewers should be able to understand why this change is being proposed now and how it fits within the unit’s broader curriculum and planning. What prompted the proposed change? What is the expected outcome? You might explain how the proposal is informed by:
+{% include typography/callout.html class="info" text="Clearly articulate the need or opportunity. Reviewers should be able to understand why this change is being proposed now and how it fits within the unit’s broader curriculum and planning. What prompted the proposed change? What is the expected outcome?" %}
+
+You might explain how the proposal is informed by:
 
 - Academic Program Review
 - Student learning outcomes assessment
@@ -52,11 +55,11 @@ The short title should help students, advisors, and reviewers recognize the cour
 
 ## Course or Program Description
 
+The description is what students, advisors, and the public see in the catalog. It should convey what the course or program is about and why it matters — not restate administrative details that appear elsewhere in the form.
+
 Focus the description on the general goals of the course or program, its content, and how it fits into the curriculum.
 
-Do not list prerequisites, corequisites, restrictions, or other requirements in the description. Those belong in the requirements sections of the form and appear separately in the online catalog.
-
-If requirements are repeated in the description, they must match the form exactly. Otherwise, the form may be returned.
+{% include typography/callout.html class="info" text="Do not list prerequisites, corequisites, restrictions, or other requirements in the description. Those belong in the requirements sections of the form and appear separately in the online catalog." %}
 
 ---
 
@@ -64,7 +67,7 @@ If requirements are repeated in the description, they must match the form exactl
 
 Kuali has many options for expressing requirements, especially degree requirements. Use the simplest structure that accurately describes the requirement.
 
-{% include typography/callout.html class="draft" text="Avoid unnecessary rule nesting. Complicated nesting makes proposals harder to understand and can delay approval." %}
+{% include typography/callout.html class="info" text="Avoid unnecessary rule nesting. Complicated nesting makes proposals harder to understand and can delay approval." %}
 
 Check that “and/or” logic is correct. It is easy to create conflicting rules, such as requiring students to have junior **and** senior standing when the intended rule is junior **or** senior standing.
 
@@ -84,7 +87,7 @@ Example:
 
 Student Learning Outcomes should be specific enough that reviewers can understand how student achievement could be assessed. 
 
-{% include typography/callout.html class="draft" text='Outcomes should describe what students can do to demonstrate learning. Avoid outcomes that are too broad, such as "Students will learn ..."' %}
+{% include typography/callout.html class="info" text='Outcomes should describe what students can do to demonstrate learning. Avoid outcomes that are too broad, such as "Students will learn ..."' %}
 
 Example:
 
@@ -95,10 +98,9 @@ The UNM Assessment Office and the Center for Teaching and Learning have useful r
 ---
 
 ## Collaboration, Cross-Listing, and Overlap
-
-This question is not only about avoiding duplication. It is also about identifying whether collaboration could strengthen the curriculum or make better use of faculty capacity.
-
 Many courses are specific to a program of study, but some proposals raise questions about shared content, cross-listing, or multi-departmental collaboration. Be thorough and reference related courses, including courses offered by other colleges. Upload correspondence where appropriate.
+
+{% include typography/callout.html class="info" text="This question is not only about avoiding duplication. It is also about identifying whether collaboration could strengthen the curriculum or make better use of faculty capacity." %}
 
 Address questions such as:
 
@@ -114,10 +116,11 @@ Address questions such as:
 
 ## Budget, Staffing, and Faculty Load
 
-This section is not only about money. It is also about teaching capacity and long-term sustainability. Most new courses, unless replacing a course, and program modifications have workload and budget implications, even if not incurring additional cost.
+Most new courses and program modifications have workload and budget implications, even if not incurring additional cost.
 
-Be explicit about the impact of a new course or program change on current offerings. Address questions such as:
+{% include typography/callout.html class="info" text="This section is not only about money. It is also about teaching capacity and long-term sustainability. Be explicit about the impact of a new course or program change on current offerings." %}
 
+Address questions such as:
 - How will new courses be covered?
 - How often will a new course be offered?
 - Will existing classes be offered less frequently?
@@ -132,7 +135,7 @@ Be explicit about the impact of a new course or program change on current offeri
 
 Credit hours should be accurate and consistent with the structure of the course. Check repeat rules carefully. Avoid errors such as allowing a course to be repeated for an unintended number of credit hours.
 
-{% include typography/callout.html class="draft" text="If the course is not a standard three-credit course, explain why and describe the corresponding workload implications where the form asks for them." %}
+{% include typography/callout.html class="info" text="If the course is not a standard three-credit course, explain why and describe the corresponding workload implications where the form asks for them." %}
 
 
 
@@ -142,7 +145,7 @@ Credit hours should be accurate and consistent with the structure of the course.
 
 Review this section carefully for internal consistency.
 
-Kuali can make it easy to choose conflicting rules. Confirm that standing, major, program, grade, and course requirements express what you intend.
+{% include typography/callout.html class="info" text="Kuali can make it easy to choose conflicting rules. Confirm that standing, major, program, grade, and course requirements express what you intend." %}
 
 Graduate courses should not have undergraduate prerequisites. If a graduate course assumes background knowledge, describe it in a way appropriate for graduate students.
 
