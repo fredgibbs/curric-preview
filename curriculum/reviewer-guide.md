@@ -2,6 +2,7 @@
 title: Curriculum Reviewer Guide
 layout: unm
 document: true
+scrollspy: true
 ---
 
 # Curriculum Reviewer Guide

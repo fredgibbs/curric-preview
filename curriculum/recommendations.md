@@ -2,6 +2,7 @@
 title: Curriculum Workflow Recommendations
 layout: unm
 document: true
+scrollspy: false
 ---
 
 {% capture site_context %}
@@ -16,18 +17,18 @@ This page are broad recommendations. For other workflow documentation that give 
 These recommendations are offered as a **concrete starting point for improving transparency, consistency, efficiency, and trust**. 
 People should be able to understand what a proposal needs, who reviews it, what each review stage is responsible for, and why a proposal is returned when revision is needed.
 
-{% capture source_doc %}
-Recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/curriculum/Faculty_Senate_Academic_Council_Formatted.docx) for complete discussion, background, and supporting materials.
-{% endcapture %}
-{% include typography/callout.html class="info" text=source_doc %}
-
-Most recommendations relate to clarifying existing workflow practices, but the working group recommends three significant operational departures within the five main recommendations:
+_Most recommendations relate to clarifying existing workflow practices, but the working group recommends three significant operational departures within the five main recommendations:_
 
 1. **Remove the syllabus requirement from Kuali forms.** Curriculum review should focus on curricular implications. The Kuali form already captures what reviewers actually need. Requiring a syllabus sends the wrong message about what we're evaluating, and puts review energy in the wrong place and at the wrong scales.
 
 2. **Designate authorized Kuali submitters per unit.** A small coordination step, but it creates a much cleaner channel when something needs revision and helps target training to reduce form returns.
 
 3. **Adopt [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
+
+{% capture source_doc %}
+The below five recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/curriculum/Faculty_Senate_Academic_Council_Formatted.docx) for more details on the 13 particular recommendations that inform them.
+{% endcapture %}
+{% include typography/callout.html class="info" text=source_doc %}
 
 
 ---
@@ -41,7 +42,7 @@ Not every proposal needs the same preparation or review. The workflow should mak
 {% capture forms_recommendations %}
 - **Expand faculty workflow support.** Many workflow problems result from confusion about expectations rather than disagreement with the proposal itself. Embedded guidance, examples, training materials, and access to workflow expertise improve submission quality before review begins.
 {% endcapture %}
-{% include typography/callout.html class="info" title="Committee recommendations represented here" text=forms_recommendations %}
+{% include typography/callout.html class="info" title="Particular recommendations" text=forms_recommendations %}
 
 {% capture expectations_draft %}
 The [Curriculum section]({{ site.baseurl }}/curriculum/) of this site serves as a mockup of what publicly accessible workflow documentation could look like — organized for both submitters and reviewers. The [Quick Reference]({{ site.baseurl }}/curriculum/quick-reference.html) offers a compact summary of proposal types, preparation expectations, and review responsibilities as one entry point into that documentation.
@@ -66,7 +67,7 @@ The proposed process embraces **proposal types** not as rigid categories but as 
 - **Expand Associate Dean involvement.** Associate Deans are well positioned to identify curricular overlaps, resource implications, and coordination needs before issues reach Senate review. Earlier involvement also provides a clearer point of contact and can reduce downstream workflow problems.
 {% endcapture %}
 
-{% include typography/callout.html class="info" title="Committee recommendations represented here" text=routing_recommendations %}
+{% include typography/callout.html class="info" title="Particular recommendations" text=routing_recommendations %}
 
 {% capture tiers_draft %}
 [Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) defines the four types, describes what each one signals about preparation and consultation expectations, and links to the submitter-facing [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html).
@@ -102,7 +103,7 @@ Recurring returns are evidence the system may need clearer prompts, better examp
 - **Analyze recurring returns.** Patterns in returned forms reveal training needs, form design problems, and process weaknesses. Aggregating that data across the committee would improve guidance and reviewer preparation over time.
 
 {% endcapture %}
-{% include typography/callout.html class="info" title="Committee recommendations represented here" text=trust_recommendations %}
+{% include typography/callout.html class="info" title="Particular recommendations" text=trust_recommendations %}
 
 {% capture stages_draft %}
 [Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html), a stage-by-stage guide showing what reviewers should ask for cosmetic changes, course changes, program changes, and new programs.
@@ -138,7 +139,7 @@ Requiring a syllabus for curriculum review sends the message that committees are
 
 - **Keep course-quality review in the right venue.** Instructional-design and course-materials review should be supported through appropriate teaching and learning processes, while curriculum workflow should rely on structured curricular fields that reviewers are positioned to evaluate.
 {% endcapture %}
-{% include typography/callout.html class="info" title="Committee recommendations represented here" text=review_boundary_recommendations %}
+{% include typography/callout.html class="info" title="Particular recommendations" text=review_boundary_recommendations %}
 
 ---
 
@@ -162,9 +163,19 @@ Form field descriptions shape what submitters think reviewers need. A vague or n
 
 
 {% endcapture %}
-{% include typography/callout.html class="info" title="Committee recommendations represented here" text=field_framing_recommendations %}
+{% include typography/callout.html class="info" title="Particular recommendations" text=field_framing_recommendations %}
 
 {% capture kuali_draft %}
 The Kuali forms need some love, but to help users navigate existing forms, the [Kuali Form Guide]({{ site.baseurl }}/curriculum/kuali-form-guide.html), provides practical guidance for framing proposals so reviewers can understand what is changing, why it matters, and what the implications may be.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=kuali_draft %}
+
+---
+
+## From Recommendations to Documentation
+
+These recommendations point toward a review process that is more transparent, more consistent, and better calibrated to the scope of what's being proposed. The goal is a workflow where submitters know what to prepare, reviewers know what to ask, and everyone can trust that review is happening at the right level.
+
+The rest of this site is a draft illustration of what that could look like in practice — organized documentation for both submitters and reviewers, built around the proposal types and stage responsibilities described here.
+
+[Explore the draft documentation]({{ site.baseurl }}/curriculum/) to see how these recommendations translate into guidance for submitters, reviewers, and committee members.
