@@ -133,6 +133,7 @@
   .unm-masthead {
     position: relative;
     z-index: 10;
+    height: 30px;
     color: var(--unm-white);
   }
 
@@ -151,25 +152,24 @@
 
   .unm-logo {
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
-    z-index: 4;
+    z-index: 100;
     display: flex;
     align-items: center;
-    width: 308px;
-    min-height: 86px;
-    padding: 10px 18px 11px;
-    color: var(--unm-cherry);
+    justify-content: center;
+    width: 235px;
+    height: 70px;
+    padding: 0;
     background: var(--unm-white);
-    border-bottom: 6px solid var(--unm-cherry);
+    border-bottom: 3px solid #ba0c2f;
     text-decoration: none;
   }
 
   .unm-logo img {
     display: block;
-    width: 348px;
-    height: 100px;
-    max-height: 64px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
   }
 
@@ -203,23 +203,29 @@
   .unm-search {
     display: flex;
     align-items: center;
-    height: 32px;
+    order: 2;
+    height: 28px;
+    background: var(--unm-white);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 8px;
   }
 
   .unm-search input {
     width: 180px;
-    height: 32px;
-    padding: 6px 10px;
+    height: 28px;
+    padding: 4px 6px;
     border: 0;
     border-radius: 0;
+    background: transparent;
   }
 
   .unm-search button {
-    width: 36px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border: 0;
-    color: var(--unm-white);
-    background: var(--unm-cherry);
+    color: #333;
+    background: transparent;
     cursor: pointer;
   }
 
@@ -227,6 +233,36 @@
     display: flex;
     gap: 16px;
     font-size: 13px;
+  }
+
+  .container {
+    width: min(1170px, calc(100% - 30px));
+    margin: 0 auto;
+  }
+
+  #header {
+    padding: 30px 0 10px;
+    color: var(--unm-text);
+    background: var(--unm-white);
+  }
+
+  #header a {
+    color: var(--unm-text);
+    text-decoration: none;
+  }
+
+  #header a:hover,
+  #header a:focus {
+    color: var(--unm-text);
+    text-decoration: none;
+  }
+
+  #header h1 {
+    margin: 20px 0 10px;
+    font-family: var(--unm-font-heading);
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
   }
 
   .unm-hero-wrap {
@@ -250,6 +286,13 @@
   .unm-site-nav {
     width: 100%;
     min-height: 34px;
+    background: #333333;
+  }
+
+  .unm-sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 30;
     background: #333333;
   }
 
@@ -735,6 +778,14 @@
     .unm-toolbar-band__inner {
       justify-content: flex-start;
       padding-left: 0;
+    }
+
+    #header {
+      padding-top: 20px;
+    }
+
+    #header h1 {
+      font-size: 34px;
     }
 
     .unm-search {

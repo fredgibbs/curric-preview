@@ -25,7 +25,7 @@ If you are preparing a proposal:
 
 | Type | Examples | Preparation Emphasis |
 |---|---|---|
-| **Small change** | Course title correction, catalog description cleanup, minor language edit | Confirm the change has no curricular consequence. |
+| **Cosmetic change** | Course title correction, catalog description cleanup, minor language edit | Confirm the change has no curricular consequence. |
 | **Course change** | New course, course modification, prerequisite change, credit-hour change, deactivation | Establish academic rationale, course structure, and local feasibility. |
 | **Program change** | Major/minor/concentration requirement changes, substantive program modification, new concentration in an existing program | Consult early with the Associate Dean; address student progression, advising, resources, and affected units. |
 | **New program** | New degree, new major, new graduate program, closure, major restructuring | Engage the Associate Dean during concept development and seek Provost-level concept discussion before formal submission. |
@@ -37,9 +37,10 @@ If you are preparing a proposal:
 Most proposals move through a version of this flow:
 
 1. Authorized departmental submitter enters proposal.
-2. Technical/workflow review.
-3. College review.
-4. Senate review (FSCC; SGPC for graduate/professional proposals).
+2. Chair approval.
+3. Technical/workflow review.
+4. College review.
+5. Senate review (FSCC; SGPC for graduate/professional proposals).
 
 What differs by pathway is the work that should happen before submission, the information the proposal should contain, and the depth of review expected at each stage.
 
@@ -47,22 +48,23 @@ What differs by pathway is the work that should happen before submission, the in
 
 ## Pre-Submission Expectations
 
+Submitting a Kuali form should indicate that the expected local discussion and approval has occurred and is indicated on the Kuali form.
+
 | Type | Expected Before Submission |
 |---|---|
-| **Small change** | Departmental authorization, normally from the chair, curriculum committee chair, or designated submitter. |
-| **Course change** | Department curriculum committee review or equivalent departmental endorsement. |
+| **Cosmetic change** | Departmental curricular committee awareness. |
+| **Course change** | Documented department curriculum committee review or equivalent departmental endorsement. |
 | **Program change** | Department endorsement plus documented Associate Dean consultation. |
-| **New program** | Sustained Associate Dean engagement during concept development plus Provost-level concept discussion before formal submission. |
+| **New program** | Sustained Associate Dean engagement during concept development plus Provost-level pre-approval before formal submission. |
 
-The submission by an authorized submitter indicates that the expected local preparation has occurred.
+"Documented" means a record exists that the required consultation occurred — an email exchange, meeting summary, or notation in the Kuali form. It does not require a formal sign-off process beyond what is noted here. For Associate Dean consultation, the record should indicate the Associate Dean has reviewed the proposal's scope and raised no unresolved concerns.
+
 
 ---
 
 ## New Program Concept Discussion
 
-New programs and major restructurings create institutional commitments. These proposals should not first appear as complete Kuali submissions.
-
-Before formal submission, departments should work with the Associate Dean to develop a concept discussion that addresses:
+New programs and major restructurings create institutional commitments. These proposals should not first appear as complete Kuali submissions. Before formal submission, departments should work with the Associate Dean to develop a concept discussion that addresses:
 
 - Rationale and intended student population.
 - Evidence of demand or need.
@@ -71,13 +73,13 @@ Before formal submission, departments should work with the Associate Dean to dev
 - Accreditation, state authorization, or reporting implications.
 - Fit with college and institutional priorities.
 
-The Provost-level concept discussion is a strategic check. It is not the full curricular review. Possible outcomes include proceed, proceed with modifications, or continue development before formal submission.
+The Provost-level pre-approval is a strategic check to prevent work going into proposal development that has clear overlaps with existing or developing curriculum. It is not intended as a proposal review, but a concept check. 
 
 ---
 
 ## Proposal Content by Type
 
-| Proposal Content | Small change | Course change | Program change | New program |
+| Proposal Content | Cosmetic change | Course change | Program change | New program |
 |---|:-:|:-:|:-:|:-:|
 | Identification of change | ✓ | ✓ | ✓ | ✓ |
 | Catalog language | ✓ | ✓ | ✓ | ✓ |

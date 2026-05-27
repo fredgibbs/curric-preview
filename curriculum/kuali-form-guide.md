@@ -1,18 +1,18 @@
 ---
-title: Kuali Proposal Guide
+title: Kuali Form Guide
 layout: unm
 document: true
 scrollspy: true
 ---
 
-# Kuali Proposal Guide
+# Kuali Form Guide
 
 This guide walks through the Kuali form section by section, in the order fields appear. Before submitting, use the checklist at the end.
 
 Forms come back most often for incomplete or inconsistent information — not because a committee disagrees with the change. A careful first submission is the best favor you can do for yourself and everyone reviewing it.
 
 {% include typography/callout.html class="draft" text="
-For program changes, even small ones, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues before and prevent avoidable returns.
+Be sure you've already read the proposal guide. For even minor program changes, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues before and prevent avoidable returns.
 " %}
 
 

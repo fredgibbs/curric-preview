@@ -4,18 +4,29 @@ layout: unm
 document: true
 ---
 
+{% capture site_context %}
+This site is a **draft format** exploring how curriculum workflow documentation could be organized and made publicly accessible — drawing on existing working group discussions and documents. Nothing here is final or adopted. It is a starting point for conversation about what clearer documentation could look like.
+{% endcapture %}
+{% include typography/callout.html class="draft" text=site_context %}
+
 # Curriculum Workflow Recommendations
 
-These recommendations are intended to guide discussion among administrators, departments, colleges, submitters, and reviewers at all levels. Some may eventually become operating principles or policy expectations. For now, they are **offered as a concrete starting point for improving transparency, consistency, trust, and shared expectations**. 
+These recommendations are offered as a **concrete starting point for improving transparency, consistency, efficiency, and trust**. 
 People should be able to understand what a proposal needs, who reviews it, what each review stage is responsible for, and why a proposal is returned when revision is needed.
 
-Many of these relate to adding and clarifying existing workflow practices, but there are three significant operational departures:
+{% capture source_doc %}
+Recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/curriculum/Faculty_Senate_Academic_Council_Formatted.docx) for complete discussion, background, and supporting materials.
+{% endcapture %}
+{% include typography/callout.html class="info" text=source_doc %}
 
-1. No longer require syllabi for Kuali forms. Curricular review needs to stay focused on the bigger picture. The Kuali form already captures course description, goals, and SLOs for new courses or requirements.
+Most recommendations relate to clarifying existing workflow practices, but the working group recommends three significant operational departures within the five main recommendations:
 
-2. Limit who can submit Kuali proposals to unit curriculum chairs. This creates some work to keep track of, but can significantly reduce problems because it allows much more targeted communication and revision processes.
+1. **Remove the syllabus requirement from Kuali forms.** Curriculum review should focus on curricular implications. The Kuali form already captures what reviewers actually need. Requiring a syllabus sends the wrong message about what we're evaluating, and puts review energy in the wrong place and at the wrong scales.
 
-3. Implementation of [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html). Four types — small change, course change, program change, and new program — set expectations for preparation and review depth without changing formal approval routing. This lets submitters focus on the most relevant fields for their proposal type.
+2. **Designate authorized Kuali submitters per unit.** A small coordination step, but it creates a much cleaner channel when something needs revision and helps target training to reduce form returns.
+
+3. **Adopt [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
+
 
 ---
 
@@ -23,10 +34,10 @@ Many of these relate to adding and clarifying existing workflow practices, but t
 
 Not every proposal needs the same preparation or review. The workflow should make differences clear: form expectations, proposal types, consultation needs, review responsibilities, and return reasons should be documented well enough that people are not guessing.
 
-{% include typography/callout.html class="warning" title="Key point" text="The workflow should make expectations visible before formal review begins. Submitters should understand the level of detail required for their proposal. Reviewers should know what questions to ask and what has already been done at their stage." %}
+{% include typography/callout.html class="warning" title="Key point" text="The workflow should make expectations visible before formal review begins. Submitters should understand the level of detail required for their proposal. Reviewers should know what questions to ask and what prior review has already occurred." %}
 
 {% capture forms_recommendations %}
-- **Expand faculty workflow support.** Embedded guidance, examples, training materials, and access to workflow expertise can improve submission quality.
+- **Expand faculty workflow support.** Many workflow problems result from confusion about expectations rather than disagreement with the proposal itself. Embedded guidance, examples, training materials, and access to workflow expertise improve submission quality before review begins.
 {% endcapture %}
 {% include typography/callout.html class="info" title="Committee recommendations represented here" text=forms_recommendations %}
 
@@ -43,18 +54,20 @@ Curriculum proposals vary in consequence. A course description update should not
 
 The proposed process embraces **proposal types** not as rigid categories but as practical guides for preparing the proposal, identifying needed consultation, and setting expectations for review depth. Proposal types help everyone spend time most effectively. If possible, Kuali fields would be required per proposal type, so minor changes aren't stalled by irrelevant information.
 
-{% include typography/callout.html class="warning" title="Key point" text="The level of preparation and review should match the scope of the change." %}
+**One of the core goals of proposal types is to push review to the right level.** Changes that stay within a department — course modifications, routine updates — should be resolved at the departmental level, with faculty and curriculum leads doing and documenting the review. Changes that have impacts outside the unit — program modifications, new programs — should involve Associate Dean consultation early. **Proposal types make that expectation explicit: the scope of the change signals who needs to be involved before submission.**
+
+{% include typography/callout.html class="warning" title="Key point" text="The scope of the change should determine the level of preparation, the depth of review, and who needs to be consulted before the proposal enters formal workflow." %}
 
 {% capture routing_recommendations %}
-- **Strengthen department-level review.** Departments may need curriculum leads, internal review groups, or designated workflow support before proposals enter formal review.
-- **Relax scrutiny for small changes.** Course title tweaks should not receive the same level of review as major curricular revisions. SLOs and a budget statement are simply not relevant here.
-- **Expand Associate Dean involvement.** Earlier submitter coordination with College approvers can identify broader resource, advising, and overlap issues before they reach Senate review.
+- **Strengthen department-level review.** Departments may need curriculum leads, internal review groups, or designated workflow support to identify technical, staffing, and overlap issues before proposals enter formal review. Earlier coordination reduces preventable delays and avoids burdening higher-level committees with problems that could have been resolved upstream.
+- **Relax scrutiny for cosmetic changes.** Course title tweaks and catalog text edits involve no substantive curricular change and should not receive the same level of review as course or program revisions. Requiring SLOs and budget statements for these adds friction without adding value.
+- **Expand Associate Dean involvement.** Associate Deans are well positioned to identify curricular overlaps, resource implications, and coordination needs before issues reach Senate review. Earlier involvement also provides a clearer point of contact and can reduce downstream workflow problems.
 {% endcapture %}
 
 {% include typography/callout.html class="info" title="Committee recommendations represented here" text=routing_recommendations %}
 
 {% capture tiers_draft %}
-[Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html), a submitter-facing guide for choosing the appropriate level of preparation and consultation.
+[Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) defines the four types, describes what each one signals about preparation and consultation expectations, and links to the submitter-facing [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html).
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=tiers_draft %}
 
@@ -79,18 +92,18 @@ Recurring returns are evidence the system may need clearer prompts, better examp
 
 
 {% capture trust_recommendations %}
-- **Assign review responsibilities more clearly.** Technical, curricular, college-level, and Senate-level review functions should be handled by the stages best suited to them.
-- **Clarify the purpose of Senate-level curriculum review.** Senate review should focus on broad academic and institutional oversight rather than routine technical correction.
-- **Continue FSCC review reorganization.** Team-based review can reduce reviewer overload and make space for more substantive engagement.
-- **Review the SGPC structure.** Graduate curricular review should be organized so the formal charge matches the work committees are actually able to do.
-- **Strengthen feedback loops.** Returned forms should notify the submitter, prior approving bodies, and relevant leadership when appropriate.
-- **Analyze recurring returns.** Patterns in returns should be used to improve forms, guidance, training, and reviewer preparation.
+- **Assign review responsibilities more clearly.** When committees must address technical, curricular, and institutional questions all at once, review becomes inefficient and substantive questions get less attention. A clearer distribution — technical accuracy at the department level, programmatic fit at the college level, university-wide questions at the Senate level — improves both efficiency and accountability.
+- **Clarify the purpose of Senate-level curriculum review.** Senate committees are uniquely positioned to evaluate university-level coherence, institutional overlap, resource sustainability, and academic rigor. That capacity is underused when committee time goes to syllabus troubleshooting and formatting corrections.
+- **Continue FSCC review reorganization.** The spring team-based pilot reduced reviewer overload, improved consistency, and created more space for substantive engagement. Clearer reviewer guidance and training would strengthen the model further.
+- **Review the SGPC structure.** SGPC currently operates primarily as a graduate curriculum review body, even though its formal charge is broader. Aligning the charge with actual capacity — whether through restructuring, subcommittees, or formalizing oversight elsewhere — would create a more workable structure.
+- **Strengthen feedback loops.** Returned forms should reach not just the submitter but prior approving bodies and relevant leadership. Broader notification improves transparency and helps identify where recurring issues originate.
+- **Analyze recurring returns.** Patterns in returned forms reveal training needs, form design problems, and process weaknesses. Aggregating that data across the committee would improve guidance and reviewer preparation over time.
 
 {% endcapture %}
 {% include typography/callout.html class="info" title="Committee recommendations represented here" text=trust_recommendations %}
 
 {% capture stages_draft %}
-[Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html), a stage-by-stage guide showing what reviewers should ask for small changes, course changes, program changes, and new programs.
+[Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html), a stage-by-stage guide showing what reviewers should ask for cosmetic changes, course changes, program changes, and new programs.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=stages_draft %}
 
@@ -139,17 +152,17 @@ Form field descriptions shape what submitters think reviewers need. A vague or n
 {% include typography/callout.html class="warning" title="Key point" text="Kuali prompts should focus submitters on the questions reviewers actually need answered, and not require fields outside the scope of the proposal type." %}
 
 {% capture field_framing_recommendations %}
-- **Clarify the justification field.** Proposals should explain what prompted the change, what evidence supports it, and what outcomes are expected.
-- **Reframe budget as sustainability.** Resource questions should include teaching load, course rotation, advising, staffing, infrastructure, enrollment, and long-term feasibility.
-- **Redesign duplication and collaboration prompts.** Overlap should be treated as a design and collaboration question rather than a defensive compliance check.
-- **Make consultation more visible.** Proposals should show how faculty consultation occurred, what concerns were raised, and how the proposal fits departmental priorities and staffing plans.
-- **Simplify and validate form fields.** Information should be entered once, updated consistently, and not duplicated across multiple fields or related forms. Fields should not be required for submission unless required across all proposal types.
+- **Clarify the justification field.** Generic statements like "modernizing the curriculum" don't give reviewers what they need. Proposals should explain what prompted the change, what evidence or assessment informed it, and what outcomes are expected.
+- **Reframe budget as sustainability.** Even when no new funding is needed, curricular changes can affect teaching loads, course rotations, advising, staffing, and long-term feasibility. The prompt should ask submitters to address those implications, not just whether new money is required.
+- **Redesign duplication and collaboration prompts.** The current framing invites defensive denial. A better prompt asks whether collaboration was considered, what overlaps were identified, whether cross-listing was explored, and why the course is housed where it is.
+- **Make consultation more visible.** Reviewers often can't tell whether a proposal was broadly discussed, whether dissenting concerns were addressed, or whether it reflects departmental planning or individual initiative. Proposals should describe how consultation occurred, what support exists, and how it fits departmental priorities and staffing.
+- **Simplify and validate form fields.** Duplicated or inconsistent fields across related forms create confusion and contribute to returns. Information should be entered once, consistent across forms, and fields should only be required when relevant to the proposal type.
 
 
 {% endcapture %}
 {% include typography/callout.html class="info" title="Committee recommendations represented here" text=field_framing_recommendations %}
 
 {% capture kuali_draft %}
-The Kuali forms need some love, but to help users navigate existing forms, the [Kuali Form Guide]({{ site.baseurl }}/curriculum/kuali-form-guide.html), practical guidance for framing proposals so reviewers can understand what is changing, why it matters, and what downstream effects may follow.
+The Kuali forms need some love, but to help users navigate existing forms, the [Kuali Form Guide]({{ site.baseurl }}/curriculum/kuali-form-guide.html), provides practical guidance for framing proposals so reviewers can understand what is changing, why it matters, and what the implications may be.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=kuali_draft %}
