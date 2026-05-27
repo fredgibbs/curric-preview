@@ -3,6 +3,9 @@
     --unm-cherry: #ba0c2f;
     --unm-cherry-dark: #8a1538;
     --unm-turquoise: #007a86;
+    --unm-high-noon: #ffc600;
+    --unm-sandia-sunset: #ed8b00;
+    --unm-terra: #c05131;
     --unm-gray: #63666a;
     --unm-silver: #d6d2c4;
     --unm-black: #000000;
@@ -414,6 +417,17 @@
     line-height: 1.65;
   }
 
+  ul.task-list {
+    padding-left: 0;
+  }
+
+  .task-list-item {
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+    align-items: baseline;
+  }
+
   .unm-main table {
     width: 100%;
     margin: 20px 0 30px;
@@ -667,18 +681,23 @@
   }
 
   .callout-warning {
-    background: rgba(186, 12, 47, 0.07);
-    border-left-color: var(--unm-cherry);
+    background: rgba(255, 198, 0, 0.14);
+    border-left-color: var(--unm-high-noon);
   }
 
   .callout-info {
-    background: rgba(0, 122, 134, 0.08);
-    border-left-color: var(--unm-turquoise);
+    background: rgba(237, 139, 0, 0.11);
+    border-left-color: var(--unm-sandia-sunset);
   }
 
   .callout-note {
     background: var(--unm-light);
     border-left-color: var(--unm-gray);
+  }
+
+  .callout-draft {
+    background: rgba(192, 81, 49, 0.1);
+    border-left-color: var(--unm-terra);
   }
 
   @media (max-width: 991px) {

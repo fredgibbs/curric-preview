@@ -6,13 +6,16 @@ document: true
 
 # Curriculum
 
-This preview section presents a proposed framework for curriculum review at UNM. The goal is to clarify expectations, reduce unnecessary returns, and start conversations before anyone touches Kuali.
+This preview section presents a proposed framework for curriculum review at UNM. The goal is to clarify expectations, reduce unnecessary returns, and start the right conversations before anyone touches Kuali. Nothing here is final — it's a starting point for discussion.
 
 
 ## Curriculum Guidance
 
-- [Curriculum Review Principles]({{ site.baseurl }}/curriculum/principles.html)  
-  The operating ideas behind the process.
+- [Curriculum Review Recommendations]({{ site.baseurl }}/curriculum/recommendations.html)  
+  Proposed changes to make curriculum workflow clearer, more consistent, and easier to improve.
+
+- [Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html)  
+  Definitions and expectations for small changes, course changes, program changes, and new programs.
 
 - [Curriculum Proposal Guide]({{ site.baseurl }}/curriculum/proposal-guide.html)  
   How departments and proposers prepare changes for the appropriate level of review.

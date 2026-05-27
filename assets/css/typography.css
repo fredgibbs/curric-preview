@@ -104,6 +104,10 @@ ul, ol {
   font-size: 0.95rem;
 }
 
+.task-list-item {
+  list-style: none;
+}
+
 a {
   /* Typography */
   text-decoration: none;

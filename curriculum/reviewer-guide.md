@@ -6,10 +6,7 @@ document: true
 
 # Curriculum Reviewer Guide
 
-This guide tries to make clear what happens at each review stage. This can help those preparing proposals just as much as reviewers at department, technical, college, Senate, graduate/professional levels. It tries to answer two questions for each reviewer:
-
-- **What is this review stage responsible for evaluating?**
-- **What questions should be asked of the proposal?**
+This guide covers what each review stage is responsible for and what questions reviewers should ask. It is useful for both reviewers and people preparing proposals who want to understand what lies ahead.
 
 ---
 
@@ -21,20 +18,13 @@ If you are reviewing a proposal:
 2. Review at the depth appropriate to the scope of change.
 3. Do not routinely redo prior-stage work.
 4. Return proposals with specific reasons when needed.
-5. Flag recurring upstream issues so forms, training, or guidance can improve.
+5. Flag recurring upstream issues — if the same problem keeps appearing, the fix belongs in the system, not just the next proposal.
 
 ---
 
-## Workflow Tiers
+## Proposal Types
 
-The tiers below are not rigid categories. They are practical review postures based on the level of change and the likely level of review required.
-
-| Tier | Typical Examples | Review Posture |
-|---|---|---|
-| Small change | Technical corrections, limited catalog edits, administrative updates | Confirm accuracy, consistency, and absence of unintended downstream effects. |
-| Course change | New course, course modification, course deactivation | Review curricular rationale, catalog clarity, student impact, and related course or program effects. |
-| Program change | Requirement changes, plan changes, substantial revisions to existing programs | Review advising, degree progress, resources, assessment/APR/accreditation links, and cross-unit implications. |
-| New program | New degree, certificate, credential, or major restructuring | Review strategic fit, demand, duplication/collaboration, resources, implementation, and institutional commitments. |
+Reviews are calibrated to four proposal types: **small change, course change, program change, and new program**. See [Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) for definitions and examples.
 
 ---
 
@@ -55,9 +45,9 @@ The tiers below are not rigid categories. They are practical review postures bas
 
 ## Return Protocol
 
-Returns should identify what needs to change and why. If the issue belongs to an earlier stage, return the proposal and flag the pattern rather than silently absorbing that stage’s work.
+Returns should tell the submitter specifically what needs to change and why. If the issue belongs to an earlier stage, send it back and say so — silently absorbing prior-stage work helps no one.
 
-Recurring issues should inform form revision, examples, training, guidance, or structural adjustments.
+When the same issue keeps appearing, treat it as a signal. The fix might be a better form prompt, a clearer example, or targeted training — not just a better proposal next time.
 
 ---
 
@@ -65,7 +55,7 @@ Recurring issues should inform form revision, examples, training, guidance, or s
 
 **Certifies:** academic coherence, sound justification, and operational feasibility at the unit level.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Is the change accurate? Does the unit agree this is the right correction? Could it affect advising, catalog language, or another form? |
 | Course change | Is the academic rationale clear? Are course goals, learning outcomes, credit hours, level, grading mode, prerequisites, rotation, and staffing coherent? For deactivations, are student impact, teach-out needs, program effects, rationale, and last-offered date clear? |
@@ -79,7 +69,7 @@ Recurring issues should inform form revision, examples, training, guidance, or s
 
 **Certifies:** the proposal is ready for governance review and should not be returned later for technical reasons.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Are required fields complete? Is the edit internally consistent and technically ready for catalog or workflow processing? |
 | Course change | Are credit hours, grading mode, numbering, title, repeatability, prerequisites, restrictions, and catalog fields technically consistent? Are linked forms present where needed? |
@@ -95,7 +85,7 @@ Technical review also checks whether the likely review pathway is reasonable.
 
 **Certifies:** college-level concerns, like overlaps with other units, have been identified early enough to inform the proposal.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Is college-level consultation needed, or can this proceed as a routine correction? |
 | Course change | Does the course affect other departments, service teaching, staffing, course rotation, or college-level priorities? |
@@ -109,7 +99,7 @@ Technical review also checks whether the likely review pathway is reasonable.
 
 **Certifies:** programmatic fit, resource sustainability, advising fit, and intra-college coordination.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Does the change create any college-level catalog, advising, resource, or coordination issue? Could batch review be appropriate? |
 | Course change | Does the change fit the program and college curriculum? Are teaching load, course rotation, service-course effects, enrollment assumptions, and student impact reasonable? |
@@ -132,7 +122,7 @@ College review should pay particular attention to:
 
 **Certifies:** consultation appropriate to the proposal’s reach has occurred.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Is there any affected unit, shared requirement, or catalog dependency that should be notified? |
 | Course change | Are similar offerings or requirements present elsewhere? Were affected units consulted? Were cross-listing, co-development, or partnership considered where relevant? |
@@ -147,7 +137,7 @@ Overlap should be treated as a design question. The purpose is to clarify relati
 
 **Certifies:** consistency with university curricular integrity, sufficiency of prior review, and absence of unresolved institutional academic concerns.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Is the change appropriate for routine or batch review? Are there any unresolved technical or governance concerns? |
 | Course change | Is the course coherent within the university curriculum? Are learning outcomes, level, credit hours, student impact, duplication/overlap, and prior review sufficient? |
@@ -173,7 +163,7 @@ SGPC accompanies or precedes FSCC review for graduate and professional proposals
 
 **Certifies:** graduate or professional academic rigor, student impact, and alignment with graduate/professional education expectations.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Does the correction affect graduate/professional catalog language, program requirements, or student records? |
 | Course change | Is the course appropriate for graduate/professional level work? Are distinctions from undergraduate offerings, prerequisites, learning outcomes, and student impact clear? |
@@ -195,7 +185,7 @@ SGPC review should pay particular attention to:
 
 **Certifies:** final institutional alignment, institutional commitments, and readiness for implementation or external approval.
 
-| Tier | Expected Questions |
+| Type | Expected Questions |
 |---|---|
 | Small change | Does the change require only administrative approval after governance review? Are there any institutional commitments or policy issues? |
 | Course change | Does the proposal create institutional commitments beyond routine course approval? Are policy, reporting, or implementation issues resolved? |

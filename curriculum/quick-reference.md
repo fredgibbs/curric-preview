@@ -6,14 +6,14 @@ document: true
 
 # Curriculum Quick Reference
 
-## Review Pathways
+## Proposal Types
 
-| Pathway | Typical Examples | Before Submission |
+| Type | Typical Examples | Before Submission |
 |---|---|---|
-| Technical / Cosmetic | Title correction, catalog cleanup, minor language edit | Departmental authorization |
-| Course-Level Change | New course, course modification, prerequisite or credit-hour change, deactivation | Department curriculum committee review or equivalent endorsement |
-| Program Requirement Change | Requirement changes, new concentration, substantive program modification | Department endorsement plus Associate Dean consultation |
-| New Program / Major Restructuring | New degree, new major, graduate program, closure, major restructuring | Associate Dean engagement plus Provost-level concept discussion |
+| Small change | Title correction, catalog cleanup, minor language edit | Departmental authorization |
+| Course change | New course, course modification, prerequisite or credit-hour change, deactivation | Department curriculum committee review or equivalent endorsement |
+| Program change | Requirement changes, new concentration, substantive program modification | Department endorsement plus Associate Dean consultation |
+| New program | New degree, new major, graduate program, closure, major restructuring | Associate Dean engagement plus Provost-level concept discussion |
 
 ## Common Flow
 
