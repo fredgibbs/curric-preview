@@ -19,11 +19,13 @@ People should be able to understand what a proposal needs, who reviews it, what 
 
 _Most recommendations relate to clarifying existing workflow practices, but the working group recommends three significant operational departures within the five main recommendations:_
 
-1. **Remove the syllabus requirement from Kuali forms.** Curriculum review should focus on curricular implications. The Kuali form already captures what reviewers actually need. Requiring a syllabus sends the wrong message about what we're evaluating, and puts review energy in the wrong place and at the wrong scales.
+1. **Remove the syllabus requirement from Kuali forms.** Curriculum review should focus on curricular implications. The Kuali form already captures what reviewers actually need. Requiring a syllabus sends the wrong message about what we're evaluating, and distracts from the more important higher-level review work.
 
-2. **Designate authorized Kuali submitters per unit.** A small coordination step, but it creates a much cleaner channel when something needs revision and helps target training to reduce form returns.
+2. **Adopt [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
 
-3. **Adopt [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
+3. **Designate authorized Kuali submitters per unit.** A small coordination step, but it creates a much cleaner channel when something needs revision and helps target training to reduce form returns.
+
+
 
 {% capture source_doc %}
 The below five recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/curriculum/Faculty_Senate_Academic_Council_Formatted.docx) for more details on the 13 particular recommendations that inform them.
