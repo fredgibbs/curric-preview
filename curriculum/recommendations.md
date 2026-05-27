@@ -45,7 +45,7 @@ Not every proposal needs the same preparation or review. The workflow should mak
 {% include typography/callout.html class="info" title="Particular recommendations" text=forms_recommendations %}
 
 {% capture expectations_draft %}
-The [Curriculum section]({{ site.baseurl }}/curriculum/) of this site serves as a mockup of what publicly accessible workflow documentation could look like — organized for both submitters and reviewers. The [Quick Reference]({{ site.baseurl }}/curriculum/quick-reference.html) offers a compact summary of proposal types, preparation expectations, and review responsibilities as one entry point into that documentation.
+The [Curriculum section]({{ site.baseurl }}/curriculum/) of this site serves as a mockup of what publicly accessible workflow documentation could look like — organized for both submitters and reviewers.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=expectations_draft %}
 

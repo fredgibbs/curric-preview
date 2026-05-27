@@ -32,9 +32,6 @@ For the working group's recommendations that motivate this framework, see [Curri
 - [Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html)  
   What each review stage is responsible for considering.
 
-- [Quick Reference]({{ site.baseurl }}/curriculum/quick-reference.html)  
-  A compact summary of pathways, preparation expectations, and review responsibilities.
-
 - [Common Course Numbering]({{ site.baseurl }}/curriculum/common-course-numbering.html)  
   A clearer guide to UNM lower-division courses and New Mexico’s statewide course numbering system.
 

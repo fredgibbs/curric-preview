@@ -21,6 +21,14 @@ If you are reviewing a proposal:
 4. Return proposals with specific reasons when needed.
 5. Flag recurring upstream issues — if the same problem keeps appearing, the fix belongs in the system, not just the next proposal.
 
+At every stage, ask:
+
+- Is this my stage's responsibility?
+- Has the appropriate prior review occurred?
+- Is the proposal prepared at the depth its consequences require?
+- Are concerns specific enough to support revision?
+- Does this issue indicate a recurring system problem?
+
 ---
 
 ## Proposal Types

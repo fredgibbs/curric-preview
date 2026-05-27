@@ -17,11 +17,22 @@ If you are preparing a proposal:
 1. Identify the likely proposal type based on the scope of the change. If unclear, consult the department curriculum committee or Associate Dean.
 2. Complete and document the conversations expected for that proposal type.
 3. Prepare proposal materials appropriate to the scope of change.
-4. Work with the authorized departmental submitter to enter the proposal in Kuali.
+4. Work with the authorized departmental submitter to enter the proposal in Kuali. See the [Kuali Form Guide]({{ site.baseurl }}/curriculum/kuali-form-guide.html) for field-by-field guidance.
+
+Before submitting, make sure you can answer:
+
+- What is changing?
+- Why is the change needed now?
+- What evidence supports the change?
+- Who is affected?
+- What consultation has occurred?
+- What are the advising, resource, accreditation, and implementation implications?
 
 ---
 
 ## Proposal Types
+
+Proposals fall into four types based on the scope of the change. The type determines how much preparation is expected, what consultation should occur before submission, and how deep review will go. See [Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) for full definitions and examples.
 
 | Type | Examples | Preparation Emphasis |
 |---|---|---|
