@@ -5,7 +5,9 @@ document: true
 ---
 
 {% capture site_context %}
-This site is a **draft format** exploring how curriculum workflow documentation could be organized and made publicly accessible — drawing on existing working group discussions and documents. Nothing here is final or adopted. It is a starting point for conversation about what clearer documentation could look like.
+This site (everything under the Curriculum tab) is a **draft format** exploring how curriculum workflow documentation could be organized and made publicly accessible drawing from existing working group discussions and documents. **Nothing here is final or adopted.** It is a starting point for conversation about what clearer documentation could look like.
+
+This page are broad recommendations. For other workflow documentation that give more shape to particular recommendations, visit the [Curriculum Docs Overview](index) page.
 {% endcapture %}
 {% include typography/callout.html class="draft" text=site_context %}
 
