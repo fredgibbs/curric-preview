@@ -6,9 +6,9 @@ scrollspy: false
 ---
 
 {% capture site_context %}
-This site (everything under the Curriculum tab) is a **draft format** exploring how curriculum workflow documentation could be organized and made publicly accessible drawing from existing working group discussions and documents. **Nothing here is final or adopted.** It is a starting point for conversation about what clearer documentation could look like.
+This site is a **draft format** exploring how curriculum workflow documentation could be organized and made publicly accessible drawing from existing working group discussions and documents. **Nothing here is final or adopted.** It is a starting point for conversation about what clearer documentation could look like.
 
-This page are broad recommendations. For other workflow documentation that give more shape to particular recommendations, visit the [Curriculum Docs Overview](index) page.
+This page presents broad recommendations. For other workflow documentation that gives more shape to particular recommendations, visit the [Curriculum Docs Overview]({{ site.baseurl }}/) page.
 {% endcapture %}
 {% include typography/callout.html class="draft" text=site_context %}
 
@@ -21,14 +21,14 @@ _Most recommendations relate to clarifying existing workflow practices, but the 
 
 1. **Remove the syllabus requirement from Kuali forms.** Curriculum review should focus on curricular implications. The Kuali form already captures what reviewers actually need. Requiring a syllabus sends the wrong message about what we're evaluating, and distracts from the more important higher-level review work.
 
-2. **Adopt [proposal types]({{ site.baseurl }}/curriculum/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
+2. **Adopt [proposal types]({{ site.baseurl }}/proposal-types.html) to calibrate preparation and review.** Four types — cosmetic change, course change, program change, new program — set expectations for how much preparation is needed and how deep review should go. The idea is to help everyone focus on the right questions for the scope of the change. 
 
 3. **Designate authorized Kuali submitters per unit.** A small coordination step, but it creates a much cleaner channel when something needs revision and helps target training to reduce form returns.
 
 
 
 {% capture source_doc %}
-The below five recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/curriculum/Faculty_Senate_Academic_Council_Formatted.docx) for more details on the 13 particular recommendations that inform them.
+The below five recommendations are drawn from the Faculty Senate Academic Council working group report. [Download the full report (Word)]({{ site.baseurl }}/Faculty_Senate_Academic_Council_Formatted.docx) for more details on the 13 particular recommendations that inform them.
 {% endcapture %}
 {% include typography/callout.html class="info" text=source_doc %}
 
@@ -47,7 +47,7 @@ Not every proposal needs the same preparation or review. The workflow should mak
 {% include typography/callout.html class="info" title="Particular recommendations" text=forms_recommendations %}
 
 {% capture expectations_draft %}
-The [Curriculum section]({{ site.baseurl }}/curriculum/) of this site serves as a mockup of what publicly accessible workflow documentation could look like — organized for both submitters and reviewers.
+This site serves as a mockup of what publicly accessible workflow documentation could look like — organized for both submitters and reviewers.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=expectations_draft %}
 
@@ -72,7 +72,7 @@ The proposed process embraces **proposal types** not as rigid categories but as 
 {% include typography/callout.html class="info" title="Particular recommendations" text=routing_recommendations %}
 
 {% capture tiers_draft %}
-[Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) defines the four types, describes what each one signals about preparation and consultation expectations, and links to the submitter-facing [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html).
+[Proposal Types]({{ site.baseurl }}/proposal-types.html) defines the four types, describes what each one signals about preparation and consultation expectations, and links to the submitter-facing [Curriculum Workflow Guide]({{ site.baseurl }}/proposal-guide.html).
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=tiers_draft %}
 
@@ -108,7 +108,7 @@ Recurring returns are evidence the system may need clearer prompts, better examp
 {% include typography/callout.html class="info" title="Particular recommendations" text=trust_recommendations %}
 
 {% capture stages_draft %}
-[Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html), a stage-by-stage guide showing what reviewers should ask for cosmetic changes, course changes, program changes, and new programs.
+[Curriculum Reviewer Guide]({{ site.baseurl }}/reviewer-guide.html), a stage-by-stage guide showing what reviewers should ask for cosmetic changes, course changes, program changes, and new programs.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=stages_draft %}
 
@@ -168,7 +168,7 @@ Form field descriptions shape what submitters think reviewers need. A vague or n
 {% include typography/callout.html class="info" title="Particular recommendations" text=field_framing_recommendations %}
 
 {% capture kuali_draft %}
-The Kuali forms need some love, but to help users navigate existing forms, the [Kuali Form Guide]({{ site.baseurl }}/curriculum/kuali-form-guide.html), provides practical guidance for framing proposals so reviewers can understand what is changing, why it matters, and what the implications may be.
+The Kuali forms need some love, but to help users navigate existing forms, the [Kuali Form Guide]({{ site.baseurl }}/kuali-form-guide.html), provides practical guidance for framing proposals so reviewers can understand what is changing, why it matters, and what the implications may be.
 {% endcapture %}
 {% include typography/callout.html class="draft" title="Draft starting point" text=kuali_draft %}
 
@@ -180,4 +180,4 @@ These recommendations point toward a review process that is more transparent, mo
 
 The rest of this site is a draft illustration of what that could look like in practice — organized documentation for both submitters and reviewers, built around the proposal types and stage responsibilities described here.
 
-[Explore the draft documentation]({{ site.baseurl }}/curriculum/) to see how these recommendations translate into guidance for submitters, reviewers, and committee members.
+[Explore the draft documentation]({{ site.baseurl }}/) to see how these recommendations translate into guidance for submitters, reviewers, and committee members.

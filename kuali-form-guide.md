@@ -9,10 +9,10 @@ scrollspy: true
 
 This guide walks through the Kuali form section by section, in the order fields appear. Before submitting, use the checklist at the end.
 
-Forms come back most often for incomplete or inconsistent information — not because a committee disagrees with the change. A careful first submission is the best favor you can do for yourself and everyone reviewing it. Beyond the recommendations here, it can also help to see what reviewers will be looking for — the [Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html) explains what each stage is responsible for evaluating.
+Forms come back most often for incomplete or inconsistent information — not because a committee disagrees with the change. A careful first submission is the best favor you can do for yourself and everyone reviewing it. Beyond the recommendations here, it can also help to see what reviewers will be looking for — the [Curriculum Reviewer Guide]({{ site.baseurl }}/reviewer-guide.html) explains what each stage is responsible for evaluating.
 
 {% capture kuali_top_note %}
-Be sure you've already read the [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html). For even minor program changes, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues and prevent avoidable returns.
+Be sure you've already read the [Curriculum Workflow Guide]({{ site.baseurl }}/proposal-guide.html). For even minor program changes, consult with your Associate Dean **before** preparing the Kuali form. Early consultation can help identify advising, college, or catalog issues and prevent avoidable returns.
 {% endcapture %}
 {% include typography/callout.html class="draft" text=kuali_top_note %}
 

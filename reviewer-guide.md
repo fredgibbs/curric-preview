@@ -33,7 +33,7 @@ At every stage, ask:
 
 ## Proposal Types
 
-Reviews are calibrated to four proposal types: **cosmetic change, course change, program change, and new program**. See [Proposal Types]({{ site.baseurl }}/curriculum/proposal-types.html) for definitions and examples.
+Reviews are calibrated to four proposal types: **cosmetic change, course change, program change, and new program**. See [Proposal Types]({{ site.baseurl }}/proposal-types.html) for definitions and examples.
 
 ---
 

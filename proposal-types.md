@@ -26,6 +26,6 @@ Proposal type shapes two things: how much preparation is expected before submiss
 
 **Not sure which type fits?** Start with the scope of the change. A correction is a cosmetic change. A new requirement is a program change. When the boundary is genuinely unclear, check with your department curriculum committee or Associate Dean before getting into the Kuali weeds.
 
-For submitter-facing preparation guidance, see the [Curriculum Workflow Guide]({{ site.baseurl }}/curriculum/proposal-guide.html).
+For submitter-facing preparation guidance, see the [Curriculum Workflow Guide]({{ site.baseurl }}/proposal-guide.html).
 
-For reviewer expectations by proposal type and stage, see the [Curriculum Reviewer Guide]({{ site.baseurl }}/curriculum/reviewer-guide.html).
+For reviewer expectations by proposal type and stage, see the [Curriculum Reviewer Guide]({{ site.baseurl }}/reviewer-guide.html).
