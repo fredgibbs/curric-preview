@@ -7,18 +7,18 @@
         <img src="{{ site.baseurl }}/assets/img/unm/unm-logo.png" alt="The University of New Mexico">
       </a>
       <div class="unm-brand-tools">
-        <form class="unm-search" action="https://search.unm.edu/search" method="get">
+        <form class="unm-search is-preview-disabled" action="#" method="get" aria-label="Search unavailable in curriculum preview">
           <label class="sr-only" for="unm-search-q">Search</label>
-          <input id="unm-search-q" name="q" type="search" placeholder="Search">
-          <button type="submit" aria-label="Submit search">
+          <input id="unm-search-q" name="q" type="search" placeholder="Search disabled in preview" disabled>
+          <button type="submit" aria-label="Search disabled in preview" disabled>
             <i class="fa fa-search" aria-hidden="true"></i>
           </button>
         </form>
-        <nav class="unm-toolbar" aria-label="UNM resources">
-          <a href="https://directory.unm.edu/departments/">UNM A-Z</a>
-          <a href="https://my.unm.edu">myUNM</a>
-          <a href="https://directory.unm.edu">Directory</a>
-          <a href="https://student.unm.edu/student-support.html">Help</a>
+        <nav class="unm-toolbar unm-toolbar--preview" aria-label="UNM resources shown for context only">
+          <span aria-disabled="true">UNM A-Z</span>
+          <span aria-disabled="true">myUNM</span>
+          <span aria-disabled="true">Directory</span>
+          <span aria-disabled="true">Help</span>
         </nav>
       </div>
     </div>
@@ -27,7 +27,8 @@
 
 <div aria-label="department logo block" id="header" role="banner">
   <div class="container">
-    <a href="{{ site.baseurl }}/"><h1>{{ site.title | default: "Hogwarts University" }}</h1></a>
+    <a href="{{ site.baseurl }}/"><h1>{{ site.title | default: "Curriculum Preview" }}</h1></a>
+    <p class="unm-preview-note">Curriculum documentation preview. Only the curriculum docs navigation is active.</p>
   </div>
 </div>
 

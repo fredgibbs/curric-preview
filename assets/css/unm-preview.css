@@ -200,6 +200,11 @@
     color: var(--unm-white);
   }
 
+  .unm-toolbar--preview span {
+    color: rgba(255, 255, 255, 0.48);
+    cursor: not-allowed;
+  }
+
   .unm-search {
     display: flex;
     align-items: center;
@@ -211,6 +216,10 @@
     padding: 0 8px;
   }
 
+  .unm-search.is-preview-disabled {
+    opacity: 0.58;
+  }
+
   .unm-search input {
     width: 180px;
     height: 28px;
@@ -220,6 +229,11 @@
     background: transparent;
   }
 
+  .unm-search input:disabled {
+    color: #666666;
+    cursor: not-allowed;
+  }
+
   .unm-search button {
     width: 28px;
     height: 28px;
@@ -227,6 +241,11 @@
     color: #333;
     background: transparent;
     cursor: pointer;
+  }
+
+  .unm-search button:disabled {
+    color: #777777;
+    cursor: not-allowed;
   }
 
   .unm-toolbar {
@@ -263,6 +282,20 @@
     font-size: 42px;
     font-weight: 600;
     line-height: 1.1;
+  }
+
+  .unm-preview-note {
+    display: inline-block;
+    margin: 0 0 16px;
+    padding: 4px 10px;
+    color: var(--unm-gray);
+    background: var(--unm-light);
+    border: 1px solid var(--unm-border);
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   .unm-hero-wrap {
